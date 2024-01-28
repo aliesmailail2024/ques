@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>أسئلة</title>
+</head>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>أسئلة</title>
+    <style>
+        /* أنماط CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        h3 {
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        input[type="radio"] {
+            margin-bottom: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>أسئلة</h1>
+
+    <form>
+        <!-- سؤال العمر -->
+        <h3>سؤال 1: كم عمرك؟</h3>
+        <input type="radio" name="age" value="18"> 18 سنة أو أقل<br>
+        <input type="radio" name="age" value="19-30"> بين 19 و 30 سنة<br>
+        <input type="radio" name="age" value="31+"> 31 سنة أو أكثر<br>
+
+        <!-- سؤال الموقع -->
+        <h3>سؤال 2: من أين أنت؟</h3>
+        <input type="radio" name="location" value="المملكة المتحدة"> المملكة المتحدة<br>
+        <input type="radio" name="location" value="الولايات المتحدة"> الولايات المتحدة<br>
+        <input type="radio" name="location" value="اليمن"> اليمن<br>
+
+        <!-- سؤال الألوان -->
+        <h3>سؤال 3: ما هو لونك المفضل؟</h3>
+        <input type="radio" name="color" value="أحمر"> أحمر<br>
+        <input type="radio" name="color" value="أخضر"> أخضر<br>
+        <input type="radio" name="color" value="أزرق"> أزرق<br>
+
+        <br>
+        <input type="submit" value="إرسال">
+    </form>
+</body>
+
+</html>
